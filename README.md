@@ -7,21 +7,25 @@ using namespace std;
 
 void AreaRectangulo(int base, int altura)
 
-main() 
+int main() 
 {
 float b, a;
+
 cout << "Dame la base:";
 cin >> base ;
+
 cout << "Dame la altura: ";
 cin >> altura ;
-AreaRectangulo(b,a);
-cout << "El área es : "<< area;
 
+AreaRectangulo(b,a);
+
+cout << "El área es : "<< area;
 }
 
 int AreaRectangulo(int base, int altura )
 {
+
 int area ;
-area=base*altura ;
-return(area) ;
+area=base*altura;
+return(base);
 }
